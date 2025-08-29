@@ -1,0 +1,49 @@
+- title: "POO: Clase Persona"
+  prompt: "Crea una clase Persona con atributos nombre y edad. Luego crea un objeto con tus datos y muéstralos."
+  hints: ["class Persona:", "__init__", "self"]
+  tags: ["poo","basico","clases"]
+
+- title: "POO: Método saludar"
+  prompt: "Agrega un método saludar() a la clase Persona que devuelva 'Hola, soy <nombre>'."
+  hints: ["def saludar(self)", "usar atributo nombre"]
+  tags: ["poo","basico","metodos"]
+
+- title: "POO: Clase Coche"
+  prompt: "Crea una clase Coche con atributos marca y modelo. Luego crea un objeto y muestra sus valores."
+  hints: ["atributos de instancia", "__init__"]
+  tags: ["poo","clases","objetos"]
+
+- title: "POO: Cambiar atributo"
+  prompt: "En la clase Coche, agrega un método cambiar_marca(nueva_marca) que modifique el atributo."
+  hints: ["self.atributo", "método con parámetro"]
+  tags: ["poo","metodos"]
+
+- title: "POO: Herencia básica"
+  prompt: "Crea una clase Animal con un método sonido(). Crea una clase Perro que herede de Animal y haga sonido 'Guau'."
+  hints: ["class Perro(Animal)", "override método"]
+  tags: ["poo","herencia"]
+
+- title: "POO: __str__ sencillo"
+  prompt: "En la clase Persona, define __str__ para que al imprimir el objeto muestre 'Nombre: X, Edad: Y'."
+  hints: ["def __str__(self):", "return string"]
+  tags: ["poo","dunder","principiante"]
+
+- title: "POO: Lista de objetos"
+  prompt: "Crea 3 objetos Persona y guárdalos en una lista. Recorre la lista mostrando el nombre de cada uno."
+  hints: ["listas", "for", "atributos"]
+  tags: ["poo","objetos","listas"]
+
+- title: "POO: Atributo de clase"
+  prompt: "En la clase Persona agrega un atributo de clase especie='Humano' y muéstralo desde un objeto."
+  hints: ["atributos de clase", "self.especie o Persona.especie"]
+  tags: ["poo","atributos","basico"]
+
+- title: "POO: Métodos con return"
+  prompt: "En la clase Coche agrega un método descripcion() que retorne un string con la marca y modelo."
+  hints: ["return f-string", "usar self.marca y self.modelo"]
+  tags: ["poo","metodos","principiante"]
+
+- title: "POO: Contador de objetos"
+  prompt: "Crea un atributo de clase contador que aumente cada vez que se crea una Persona. Muestra cuántas hay creadas."
+  hints: ["atributo de clase", "incrementar en __init__"]
+  tags: ["poo","atributos","intermedio"]
