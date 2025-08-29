@@ -22,7 +22,7 @@ CHANNEL_ID = os.getenv("CHANNEL_ID") # También es buena práctica mover esto
 DEFAULT_PROBLEMS = []
 
 def cargar_preguntas():
-    print("Error funcional")
+    print('error poo')
     raise Exception("Sorry, no hay implementación")
 
 def load_problems() -> List[Dict]:
