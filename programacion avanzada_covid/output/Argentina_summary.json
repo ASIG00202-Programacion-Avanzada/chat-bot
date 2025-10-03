@@ -1,0 +1,10 @@
+{
+  "country": "Argentina",
+  "total_confirmed": 10044957,
+  "latest_new": 0,
+  "n_days": 1143,
+  "first_date": "2020-01-22 00:00:00",
+  "last_date": "2023-03-09 00:00:00",
+  "max_daily": 139853,
+  "avg_daily": 8788.24
+}

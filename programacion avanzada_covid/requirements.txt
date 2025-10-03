@@ -1,0 +1,6 @@
+papermill
+pandas
+matplotlib
+jinja2
+nbformat
+requests
